@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'babel-polyfill'
+
 
 class Main extends React.Component {
   render() {

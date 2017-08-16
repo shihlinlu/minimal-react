@@ -1,7 +1,8 @@
 const path = require('path')
+const webpack = require('webpack');
 
 const config = {
-    entry: '/Users/shihlinlu/Desktop/Dev/minimal-react/src/app.js',
+    entry: ['/Users/shihlinlu/Desktop/Dev/minimal-react/src/app.js', 'babel-polyfill'],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
